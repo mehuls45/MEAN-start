@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEAN App</title>
+	<style type="text/css">
+		form {
+			margin-top: 50px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="/addname">
+			<div class="form-group">
+				<label>Enter First Name: </label>
+				<input class="form-control" type="text" name="fname" required>
+			</div>
+
+			<div class="form-group">
+				<label>Enter Last Name: </label>
+				<input class="form-control" type="text" name="lname" required>
+			</div>
+
+			<button class="btn btn-primary center"type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
